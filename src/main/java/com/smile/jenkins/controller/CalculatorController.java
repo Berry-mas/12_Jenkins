@@ -17,7 +17,7 @@ public class CalculatorController {
 
     @GetMapping("/health")
     public String healthCheck() {
-        return "Jenkins test를 위해 내용 변경2🐋";
+        return "Jenkins test를 위해 내용 변경!!! Discord와 연동🐋";
     }
 
     @GetMapping("/plus")
